@@ -1,0 +1,250 @@
+{
+  "mod_elements": [
+    {
+      "name": "DoomIngotIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_ingot"
+    },
+    {
+      "name": "DoomIngotOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_ore"
+    },
+    {
+      "name": "DoomIngotBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_block"
+    },
+    {
+      "name": "DoomIngotOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_ore_block_recipe"
+    },
+    {
+      "name": "DoomIngotBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_block_ore_recipe"
+    },
+    {
+      "name": "DoomIngotOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_ore_smelting"
+    },
+    {
+      "name": "DoomIngotPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_pickaxe"
+    },
+    {
+      "name": "DoomIngotAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_axe"
+    },
+    {
+      "name": "DoomIngotSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_sword"
+    },
+    {
+      "name": "DoomIngotShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_shovel"
+    },
+    {
+      "name": "DoomIngotHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_hoe"
+    },
+    {
+      "name": "DoomIngotPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_pickaxe_recipe"
+    },
+    {
+      "name": "DoomIngotAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_axe_recipe"
+    },
+    {
+      "name": "DoomIngotSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_sword_recipe"
+    },
+    {
+      "name": "DoomIngotShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_shovel_recipe"
+    },
+    {
+      "name": "DoomIngotHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_hoe_recipe"
+    },
+    {
+      "name": "DoomIngotArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DoomIngotArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_armor_helmet_recipe"
+    },
+    {
+      "name": "DoomIngotArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_armor_body_recipe"
+    },
+    {
+      "name": "DoomIngotArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_armor_leggings_recipe"
+    },
+    {
+      "name": "DoomIngotArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_armor_boots_recipe"
+    },
+    {
+      "name": "DoomIngotPickaxeToolInHandTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_pickaxe_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoomIngotOrePlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doom_ingot_ore_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.teste.doom_ingot_armor_boots": "DoomIngot Boots",
+      "item.teste.doom_ingot_pickaxe": "DoomIngot Pickaxe",
+      "item.teste.doom_ingot_axe": "DoomIngot Axe",
+      "item.teste.doom_ingot_armor_leggings": "DoomIngot Leggings",
+      "item.teste.doom_ingot_sword": "DoomIngot Sword",
+      "item.teste.doom_ingot_armor_chestplate": "DoomIngot Chestplate",
+      "block.teste.doom_ingot_ore": "DoomIngot Ore",
+      "block.teste.doom_ingot_block": "Block of DoomIngot",
+      "item.teste.doom_ingot_hoe": "DoomIngot Hoe",
+      "item.teste.doom_ingot_shovel": "DoomIngot Shovel",
+      "item.teste.doom_ingot_ingot": "DoomIngot",
+      "item.teste.doom_ingot_armor_helmet": "DoomIngot Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "teste",
+    "modName": "teste",
+    "version": "1.0.0",
+    "author": "JuanCarlos, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.teste",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

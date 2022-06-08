@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "teste:doom_ingot_block"
+    }
+  ],
+  "result": {
+    "item": "teste:doom_ingot_ingot",
+    "count": 8
+  }
+}

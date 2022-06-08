@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 100.0,
+    "cookingTime": 25,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:DoomIngotOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:DoomIngotIngot"
+    },
+    "name": "doom_ingot_ore_smelting",
+    "namespace": "mod"
+  }
+}

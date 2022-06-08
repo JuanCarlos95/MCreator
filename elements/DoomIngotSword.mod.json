@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "doomingot_sword",
+    "customModelName": "Normal",
+    "name": "DoomIngot Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 100,
+    "efficiency": 6.0,
+    "attackSpeed": 1.2,
+    "enchantability": 100,
+    "damageVsEntity": 9999.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DoomIngotIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

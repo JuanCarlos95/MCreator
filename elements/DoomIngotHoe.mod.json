@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "doomingot_hoe",
+    "customModelName": "Normal",
+    "name": "DoomIngot Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 100,
+    "efficiency": 100.0,
+    "attackSpeed": 3.0,
+    "enchantability": 100,
+    "damageVsEntity": 2.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DoomIngotIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

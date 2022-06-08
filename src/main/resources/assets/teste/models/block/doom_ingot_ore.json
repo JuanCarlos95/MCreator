@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "teste:blocks/doomingot_ore",
+    "up": "teste:blocks/doomingot_ore",
+    "north": "teste:blocks/doomingot_ore",
+    "east": "teste:blocks/doomingot_ore",
+    "south": "teste:blocks/doomingot_ore",
+    "west": "teste:blocks/doomingot_ore",
+    "particle": "teste:blocks/doomingot_ore"
+  }
+}

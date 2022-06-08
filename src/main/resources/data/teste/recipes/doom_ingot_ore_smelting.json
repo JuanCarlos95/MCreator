@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 100,
+  "cookingtime": 25,
+  "ingredient": {
+    "item": "teste:doom_ingot_ore"
+  },
+  "result": "teste:doom_ingot_ingot"
+}
